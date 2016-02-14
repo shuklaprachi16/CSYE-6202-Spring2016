@@ -4,6 +4,8 @@ namespace TrianglePatterns
 {
 	class Program
 	{
+
+
 		static void Main(string[] args)
 		{
 			DisplayPatternA();
@@ -16,22 +18,87 @@ namespace TrianglePatterns
 
 		static void DisplayPatternA()
 		{
-			// your implementation here
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("Priniting pattern (A)");
+            Console.WriteLine(" ");
+            int i = 1;
+
+            while (i <= 10)
+                {
+               for(int k =1; k<= i; k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine(" ");
+                i++;
+                }
+            Console.WriteLine("--------------------------------------------------------------------------");
 		}
 
 		static void DisplayPatternB()
 		{
-			// your implementation here
-		}
+            Console.WriteLine("Priniting pattern (B)");
+            Console.WriteLine(" ");
 
-		static void DisplayPatternC()
-		{
-			// your implementation here
-		}
+            int i = 10;
 
-		static void DisplayPatternD()
+            while (i >= 1)
+            {
+                for (int k = 1; k <= i; k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine(" ");
+                i--;
+            }
+            Console.WriteLine("----------------------------------------------------------------------------");
+        }
+
+        static void DisplayPatternC()
 		{
-			// your implementation here
-		}
+            Console.WriteLine("Priniting pattern (C)");
+            Console.WriteLine(" ");
+
+            int i = 1;
+            while (i <= 10)
+            {
+               for (int k=1; k<i; k++)
+                {
+                    Console.Write(" ");
+                }
+                for (int j=0; j<=10-i; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine(" ");
+                i++;
+            }
+            Console.WriteLine("----------------------------------------------------------------------------");
+        }
+
+
+
+        static void DisplayPatternD()
+		{
+            Console.WriteLine("Priniting pattern (D)");
+            Console.WriteLine(" ");
+
+            int i = 1;
+
+            while (i <= 10)
+            {
+                for (int k = 1; k <=10-i; k++)
+                {
+                    Console.Write(" ");
+                }
+                for(int j =1; j<=i; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine(" ");
+                i++;
+            }
+            Console.WriteLine("------------------------------------------------------------------------------- ");
+        }
 	}
 }
