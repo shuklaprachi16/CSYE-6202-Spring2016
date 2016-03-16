@@ -55,9 +55,16 @@ namespace ConsoleApplication1
 
         }
         public float CalculatEarned(float hours, float wage) {
-            float earned40 = 40 * wage;
-            float extra = ((float)((hours - 40) * 1.5) * wage);
-            return earned40 + extra;
+            if (hours > 40)
+            {
+                float earned40 = 40 * wage;
+                float extra = ((float)((hours - 40) * 1.5) * wage);
+                return earned40 + extra;
+            }
+            else
+            {
+                return hours * wage;
+            }
         }
 
         public override void personalInformation()
