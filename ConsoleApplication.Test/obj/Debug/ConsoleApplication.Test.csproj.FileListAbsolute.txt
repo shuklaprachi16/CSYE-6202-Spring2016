@@ -7,3 +7,12 @@ C:\Users\mehta.DESKTOP-0I02914\Desktop\Prachi_Assignments\ConsoleApplication1\Co
 C:\Users\mehta.DESKTOP-0I02914\Desktop\Prachi_Assignments\ConsoleApplication1\ConsoleApplication.Test\bin\Debug\nunit.framework.xml
 C:\Users\mehta.DESKTOP-0I02914\Desktop\Prachi_Assignments\ConsoleApplication1\ConsoleApplication.Test\obj\Debug\ConsoleApplication.Test.dll
 C:\Users\mehta.DESKTOP-0I02914\Desktop\Prachi_Assignments\ConsoleApplication1\ConsoleApplication.Test\obj\Debug\ConsoleApplication.Test.pdb
+C:\Users\mehta.DESKTOP-0I02914\Source\Repos\CSYE-6202-Spring20164\ConsoleApplication.Test\bin\Debug\ConsoleApplication.Test.dll
+C:\Users\mehta.DESKTOP-0I02914\Source\Repos\CSYE-6202-Spring20164\ConsoleApplication.Test\bin\Debug\ConsoleApplication.Test.pdb
+C:\Users\mehta.DESKTOP-0I02914\Source\Repos\CSYE-6202-Spring20164\ConsoleApplication.Test\bin\Debug\ConsoleApplication1.exe
+C:\Users\mehta.DESKTOP-0I02914\Source\Repos\CSYE-6202-Spring20164\ConsoleApplication.Test\bin\Debug\nunit.framework.dll
+C:\Users\mehta.DESKTOP-0I02914\Source\Repos\CSYE-6202-Spring20164\ConsoleApplication.Test\bin\Debug\ConsoleApplication1.pdb
+C:\Users\mehta.DESKTOP-0I02914\Source\Repos\CSYE-6202-Spring20164\ConsoleApplication.Test\bin\Debug\nunit.framework.xml
+C:\Users\mehta.DESKTOP-0I02914\Source\Repos\CSYE-6202-Spring20164\ConsoleApplication.Test\obj\Debug\ConsoleApplication.Test.csprojResolveAssemblyReference.cache
+C:\Users\mehta.DESKTOP-0I02914\Source\Repos\CSYE-6202-Spring20164\ConsoleApplication.Test\obj\Debug\ConsoleApplication.Test.dll
+C:\Users\mehta.DESKTOP-0I02914\Source\Repos\CSYE-6202-Spring20164\ConsoleApplication.Test\obj\Debug\ConsoleApplication.Test.pdb
