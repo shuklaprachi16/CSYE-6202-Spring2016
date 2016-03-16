@@ -105,7 +105,7 @@ namespace ConsoleApplication1
                     }
                     catch
                     {
-                        Console.WriteLine("'Please enter 9 digits integer value'");
+                        Console.WriteLine("'Please enter valid 9 digits integer value'");
                         test1 = true;
                     }
                 }
