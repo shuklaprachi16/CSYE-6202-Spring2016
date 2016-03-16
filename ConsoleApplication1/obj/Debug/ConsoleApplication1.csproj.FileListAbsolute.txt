@@ -1,0 +1,6 @@
+C:\Users\mehta.DESKTOP-0I02914\Desktop\Prachi_Assignments\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\mehta.DESKTOP-0I02914\Desktop\Prachi_Assignments\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\mehta.DESKTOP-0I02914\Desktop\Prachi_Assignments\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\mehta.DESKTOP-0I02914\Desktop\Prachi_Assignments\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\mehta.DESKTOP-0I02914\Desktop\Prachi_Assignments\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\mehta.DESKTOP-0I02914\Desktop\Prachi_Assignments\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

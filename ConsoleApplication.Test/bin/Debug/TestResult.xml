@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\mehta.DESKTOP-0I02914\Desktop\Prachi_Assignments\ConsoleApplication1\ConsoleApplication.Test\bin\Debug\ConsoleApplication.Test.dll" total="12" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-03-16" time="07:01:55">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8670" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="DESKTOP-0I02914" user="mehta" user-domain="DESKTOP-0I02914" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\mehta.DESKTOP-0I02914\Desktop\Prachi_Assignments\ConsoleApplication1\ConsoleApplication.Test\bin\Debug\ConsoleApplication.Test.dll" executed="True" result="Success" success="True" time="0.174" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="ConsoleApplication1" executed="True" result="Success" success="True" time="0.162" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.161" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="whenRunningApplication" executed="True" result="Success" success="True" time="0.159" asserts="0">
+                <results>
+                  <test-case name="ConsoleApplication1.Tests.whenRunningApplication.When_CalculateSalary_BaseCommissionEmployee_ResultShouldBe_BasePlusGrossTimesRate" executed="True" result="Success" success="True" time="0.083" asserts="1" />
+                  <test-case name="ConsoleApplication1.Tests.whenRunningApplication.When_CalculateSalary_CommissionSale_ResultShouldBe_GrossSaleTimesRate" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="ConsoleApplication1.Tests.whenRunningApplication.When_CalculateSalary_HourlyEmployee_ResultShouldBeHourlyWageTimesHoursWorked" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                  <test-case name="ConsoleApplication1.Tests.whenRunningApplication.When_CalculateSalary_SalariedEmployee_ResultShouldBeEqualToWeeklyWage" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="ConsoleApplication1.Tests.whenRunningApplication.When_UserEnteredSSN_IsNotValid_CommissionSales" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                  <test-case name="ConsoleApplication1.Tests.whenRunningApplication.When_UserEnteredSSN_IsNotValid_HourlyEmployee" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="ConsoleApplication1.Tests.whenRunningApplication.When_UserEnteredSSN_IsNotValid_SalariedEmployee" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="ConsoleApplication1.Tests.whenRunningApplication.When_UserEnteredSSN_IsNotValid_SalaryBasedCommission" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="ConsoleApplication1.Tests.whenRunningApplication.When_UserNameIsEmpty_BaseSaleCommsionEmployee" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="ConsoleApplication1.Tests.whenRunningApplication.When_UserNameIsEmpty_HourlyEmployee" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="ConsoleApplication1.Tests.whenRunningApplication.When_UserNameIsEmpty_SalariedEmployee" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="ConsoleApplication1.Tests.whenRunningApplication.When_UserNameIsEmpty_SaleCommssionEmployee" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
