@@ -58,6 +58,7 @@ namespace Assignment_win
                     if (count == 3)
                     {
                         System.Windows.Forms.MessageBox.Show("Sorry application closed due to security reasons");
+                        System.Environment.Exit(1);
 
                     }
                 }
