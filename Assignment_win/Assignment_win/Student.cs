@@ -8,6 +8,7 @@ namespace Assignment_win
 {
     public class Student
     {
+        public static Random random = new Random();
         public string studentId { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
@@ -29,7 +30,8 @@ namespace Assignment_win
         public static string RandomString(int length)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-            var random = new Random();
+
+          
             string a = new string(Enumerable.Repeat(chars, 3).Select(s => s[random.Next(s.Length)]).ToArray());
             string b = new string(Enumerable.Repeat(chars, 2).Select(s => s[random.Next(s.Length)]).ToArray());
             string c = new string(Enumerable.Repeat(chars, 4).Select(s => s[random.Next(s.Length)]).ToArray());

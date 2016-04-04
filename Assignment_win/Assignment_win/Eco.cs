@@ -28,7 +28,7 @@ namespace Assignment_win
         {
            
             userList.Add(user);
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < 10; i++)
             {
                 Student student = Builder<Student>.CreateNew().With(c => c.studentId = Student.RandomString(9)).
                                                                    With(c => c.firstName = Faker.Name.First()).
@@ -36,14 +36,15 @@ namespace Assignment_win
                                                                    With(c => c.department = Student.departmentList[getRandomIndex()]).
                                                                    With(c => c.enrolType = enrolType[getRandomEnrolType()]).
                                                                    Build();
+               
 
                 Eco.getEco().studentList.Add(student);
+              
 
 
             }
 
-
-            // this.studentRegistrationStudentTable.RowCount = userss.Count();
+          
 
         }
 
