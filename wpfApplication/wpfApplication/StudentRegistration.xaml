@@ -1,0 +1,26 @@
+﻿<Window x:Class="wpfApplication.StudentRegistration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfApplication"
+        mc:Ignorable="d"
+        Title="StudentRegistration" Height="500" Width="600" ResizeMode="CanMinimize">
+    <Grid>
+        <Label x:Name="studentIdLabel" Content="Student Id" HorizontalAlignment="Left" Margin="59,27,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="firstNameLabel" Content="First Name" HorizontalAlignment="Left" Margin="59,70,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lastNameLabel" Content="Last Name" HorizontalAlignment="Left" Margin="59,111,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.324,0.969"/>
+        <Label x:Name="departmentLabel" Content="Department" HorizontalAlignment="Left" Margin="59,155,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.292,-0.121"/>
+        <TextBox x:Name="studentIdText" HorizontalAlignment="Left" Height="23" Margin="180,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="firstNameText" HorizontalAlignment="Left" Height="23" Margin="180,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="lastNameText" HorizontalAlignment="Left" Height="23" Margin="180,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <ComboBox x:Name="deptComboBox" HorizontalAlignment="Left" Margin="180,155,0,0" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <RadioButton x:Name="fullTimeRadio" Content="Full Time" HorizontalAlignment="Left" Margin="66,197,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <RadioButton x:Name="partTimeRadio" Content="Part Time" HorizontalAlignment="Left" Margin="180,200,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <DataGrid x:Name="studentTable" HorizontalAlignment="Left" Margin="59,239,0,0" VerticalAlignment="Top" Height="150" Width="385"/>
+        <Button x:Name="newStudentButton" Content="New student" HorizontalAlignment="Left" Margin="426,53,0,0" VerticalAlignment="Top" Width="105" Click="newStudentButton_Click"/>
+        <Button x:Name="removeStudentButton" Content="remove Student" HorizontalAlignment="Left" Margin="426,96,0,0" VerticalAlignment="Top" Width="105" Click="removeStudentButton_Click"/>
+        <Button x:Name="editButton" Content="Edit Student" HorizontalAlignment="Left" Margin="426,140,0,0" VerticalAlignment="Top" Width="105" Click="editButton_Click"/>
+
+    </Grid>
+</Window>
